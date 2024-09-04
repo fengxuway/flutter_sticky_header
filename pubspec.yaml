@@ -6,7 +6,10 @@ homepage: https://github.com/letsar/flutter_sticky_header
 dependencies:
   flutter:
     sdk: flutter
-  value_layout_builder: ^0.3.0
+  value_layout_builder:
+    git:
+      url: https://github.com/fengxuway/value_layout_builder.git
+      ref: master
 
 dev_dependencies:
   flutter_test:
